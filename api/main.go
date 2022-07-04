@@ -17,7 +17,7 @@ func setupRoutes(app *fiber.App) {
 }
 
 func main() {
-	err := godotenv.Load
+	err := godotenv.Load()
 
 	if err != nil {
 		fmt.Println(err)

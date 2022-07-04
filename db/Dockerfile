@@ -1,3 +1,3 @@
 FROM redis:alpine
 
-EXPOSE 6379
+EXPOSE 8080
