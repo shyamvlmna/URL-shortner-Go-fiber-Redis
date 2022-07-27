@@ -9,8 +9,7 @@ services:
      - db
 
  db:
-   build: db
-   ports:
-     - "8080:8080"
+   image: redis
+   container_name: "redis_url"
    volumes:
      - .data:/data
